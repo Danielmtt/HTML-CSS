@@ -4,6 +4,8 @@
       padding: 0;
       overflow-x:hidden;
       width: 100vw;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
     }
     .menu ul{
         list-style: none;
@@ -505,7 +507,7 @@ main{
     width: auto;
     height: 10vh;
     transform: rotate(270deg);
-    margin-top: 2vh;
+    margin-top: 10pt;
 
 }
 
