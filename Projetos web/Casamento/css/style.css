@@ -8,7 +8,6 @@ body {
     padding:0px;
     margin:0px;
     font-size: 18pt;
-    background-color:  #E9FBFC ;
 }
 
 .menu ul {
@@ -55,32 +54,19 @@ nav{
     text-align: center;
     font-family:"Futura-LT-W01-Light";}
 
-main{
-    background-color:  #E9FBFC ;
+footer{
     font-family:"Futura-LT-W01-Light";
-    margin: auto;
-    width: 80%;
-    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
-
-main h1{
-padding: 250px 0px 25px 0px;
-font-size: 25pt;
-}
-
-main h2{
-    font-size: 15pt;
-    padding: 40px 0px 20px 0px;
-}
-
-main p{
-    height: 100px;
     font-size: 12pt;
-    line-height: 1.5;
-}
-
-img#mapa{
+    color: white;
     width: 100%;
+    padding: 20px 0;
     height: auto;
+    background-color: #2E2E2E;
+    position: relative;
+    left: 0;
+    bottom: 0;
 }
