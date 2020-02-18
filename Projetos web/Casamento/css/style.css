@@ -19,13 +19,15 @@
         height: auto;
         background-color:#EDEDED;
         list-style:none;
-        font:80% Tahoma;}
-    
+        font-size: 2.7vw;
+        display: flex;
+    }
     .menu ul li { 
         width: 40%;
         height: 20%;
         margin: auto;
-        padding-top: 1.5vh ;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh ;
     }
     
     .menu ul li a {
@@ -38,14 +40,15 @@
     .menu ul li a:hover {
         color:#A899B6;
         transition: 0.5s ease-in;}
+
+    #botao_res{
+        width: 0;
+        height: 0;
+    }
     
-    .menu ul li a#register {
-        font-family:"Futura-LT-W01-Light";
-        color:#524261;
-        border-style:solid;
-        border-width: 2px;
-        border-color: #524261;
-        padding: 10px 5px;
+    #register {
+        width: 0;
+        height: 0;
         display: none;
     }
     
@@ -110,7 +113,7 @@
         color:#524261;
         text-decoration: none;
         padding: 10px 20px;
-        float:left;}
+    }
     
     .menu ul li a:hover {
         color:#A899B6;
