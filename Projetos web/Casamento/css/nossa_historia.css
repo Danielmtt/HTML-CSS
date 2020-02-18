@@ -1,5 +1,72 @@
 
 /*Centro da pagina*/
+@media (max-width: 900px){
+    article{ 
+        padding: 20px 0px 0px 0px;
+        font-family:"Futura-LT-W01-Light";
+        font-size: 12pt;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color:  #E9FBFC;}
+
+    section{
+        background-color:  #E9FBFC;
+        width: 100%;
+        height: 100vh ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 20vh;
+    }
+
+    section .historia{
+        position: relative;
+        width: 100vw;
+        height: auto;
+        background-color: #E9FBFC;
+        margin: 40px auto;
+    }
+    .perfil{
+        width: 85%;
+        height: auto;
+    }
+
+    div#titulo h1{
+        font-size: 35pt;
+        padding-bottom: 20px;}
+
+    .historia h2{
+        font-size: 16pt;
+        margin: 30px 20px;}
+        
+    .historia p{
+        font-size: 14pt;}
+    
+    /***************************************/
+
+    /*Galeria de fotos*/
+
+    #galeria{
+        display: flex;
+        width: 100%;
+        padding: 20vh 0;
+        height: 150vh;
+        text-align: center;
+        margin-top: 20vh;
+    }
+
+    #galeria img{
+        width: 85%;
+        height: auto;
+    }
+
+    /********************************************/
+
+}
+
+@media(min-width: 900px){
 
 article{ 
     padding: 200px 0px 0px 0px;
@@ -51,4 +118,4 @@ section#galeria{
     margin: auto;}
 
 /********************************************/
-
+}
