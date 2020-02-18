@@ -7,6 +7,7 @@
 body {
     padding:0px;
     margin:0px;
+    text-align: center;
     font-size: 18pt;
     background-color:  #E9FBFC ;
 }
@@ -80,7 +81,25 @@ main p{
     line-height: 1.5;
 }
 
-img#mapa{
+#mapa{
+    margin: 0 auto 50px 0;
+    width: 90%;
+    height: 600px;
+}
+
+footer{
+    font-family:"Futura-LT-W01-Light";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
     width: 100%;
+    padding: 20px 0;
     height: auto;
+    background-color: #2E2E2E;
+    position: relative;
+    left: 0;
+    bottom: 0;
 }
