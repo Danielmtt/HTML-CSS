@@ -1,0 +1,46 @@
+body{
+    background-color:  #E9FBFC ;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+section{
+    text-align: center;
+    font-family:"Futura-LT-W01-Light";
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+section div{
+    flex: 1 1 200px;
+    margin: 20px 30px;
+}
+
+section div p{
+    text-align: center;
+    font-size: 12pt;
+}
+
+div h2{
+    width: 100%;
+    text-align: center;
+    font-family:"Futura-LT-W01-Light";
+    font-size: 25pt;
+    padding-top: 250px;
+}
+div img{
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+}
+div h1{
+    padding: 20px 0px 10px 0px;
+}
+
+
